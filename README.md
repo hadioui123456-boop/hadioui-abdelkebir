@@ -64,7 +64,7 @@ Je m’intéresse particulièrement à :
 
 ## 1.  Cellule robotisée de palettisation de blocs compactés
 
-🔗 **Lien du projet :** [Robot de palettisation – PFE](https://github.com/USERNAME/robot-palletisation-pfe)
+🔗 **Lien du projet:[Voir[Voir le détail du projet PFE](projects/robot-palletisation.md)
 
 Projet de fin d’études portant sur la conception d’une **cellule robotisée de palettisation** destinée à manipuler des blocs compactés d’aluminium/canettes.
 
