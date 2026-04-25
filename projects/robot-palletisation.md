@@ -66,7 +66,7 @@ Il comporte une mâchoire fixe et une mâchoire mobile actionnée par un vérin 
 
 Un système anti-chute est ajouté afin de sécuriser le transport du bloc après la prise.
 
-![Préhenseur]({{ '/assets/img/projects/robot-palletisation/prehenseur.png' | relative_url }})
+![Préhenseur](../projects/Prehenseur_Rpbotise.png)
 
 ---
 
