@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+
+<body>
+  <div class="page-shell">
+    <div class="main-container">
+
+      <aside class="sidebar">
+        <div class="profile-card">
+          {% if site.logo %}
+            <img class="profile-image" src="{{ site.logo | relative_url }}" alt="Photo de profil">
+          {% endif %}
+
+          <h1 class="profile-name">{{ site.title }}</h1>
+          <p class="profile-role">{{ site.description }}</p>
+
+          <div class="profile-info">
+            <p>🎓 Étudiant ingénieur – ENSA de Fès</p>
+            <p>⚙️ Automatisation industrielle</p>
+            <p>🤖 Robotique industrielle</p>
+            <p>🛠️ Maintenance industrielle</p>
+            <p>💡 PLC Siemens / HMI / Industrie 4.0</p>
+          </div>
+
+          <div class="profile-links">
+            <a href="https://github.com/{{ site.github.owner_name | default: 'hadioui-abdelkbir' }}" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+      </aside>
+
+      <main class="content-area">
+        {{ content }}
+      </main>
+
+    </div>
+  </div>
+</body>
+</html>
