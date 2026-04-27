@@ -83,7 +83,7 @@ Je m’intéresse particulièrement à :
 
 <div class="project-card">
 
-<h3>🤖 Robot de palettisation – Projet de Fin d’Études</h3>
+<h3> Robot de palettisation – Projet de Fin d’Études</h3>
 
 <img class="project-image" src="assets/img/projects/robot-palletisation.png" alt="Robot de palettisation">
 
@@ -109,7 +109,7 @@ le dimensionnement pneumatique, l’étude électrique, la simulation robotique 
 
 <div class="project-card">
 
-<h3>⚙️ Automatisation d’une stockeuse de phosphate – OCP</h3>
+<h3> Automatisation d’une stockeuse de phosphate – OCP</h3>
 
 <img class="project-image" src="assets/img/projects/stockeuse-ocp.png" alt="Automatisation stockeuse de phosphate">
 
@@ -135,7 +135,7 @@ un automate Siemens et une supervision HMI.
 
 <div class="project-card">
 
-<h3>🥫 Compacteur intelligent de canettes</h3>
+<h3> Compacteur intelligent de canettes</h3>
 
 <img class="project-image" src="assets/img/projects/compacteur-canettes.png" alt="Compacteur intelligent de canettes">
 
@@ -160,31 +160,8 @@ d’un vérin électrique, de capteurs et d’une commande embarquée.
 
 <div class="project-card">
 
-<h3>⚡ Dimensionnement électrique d’une cellule industrielle</h3>
 
-<img class="project-image" src="assets/img/projects/dimensionnement-electrique.png" alt="Dimensionnement électrique industriel">
-
-<p>
-Étude dédiée au dimensionnement électrique d’une cellule robotisée industrielle :
-bilan de puissance, choix du sectionneur général, choix des protections par départ,
-dimensionnement de l’alimentation 24 VDC, intégration d’un SITOP et d’une réserve d’énergie.
-</p>
-
-<div class="project-tags">
-<span class="tag">Caneco BT</span>
-<span class="tag">SEE Electrical</span>
-<span class="tag">SITOP</span>
-<span class="tag">Protections électriques</span>
-<span class="tag">Chute de tension</span>
-</div>
-
-<a class="btn" href="#">Voir le projet</a>
-
-</div>
-
-<div class="project-card">
-
-<h3>🛠️ Maintenance industrielle – MK AERO Tanger</h3>
+<h3> Maintenance industrielle – MK AERO Tanger</h3>
 
 <img class="project-image" src="assets/img/projects/maintenance-mk-aero.png" alt="Maintenance industrielle MK AERO">
 
