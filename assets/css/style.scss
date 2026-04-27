@@ -1,19 +1,27 @@
 ---
 ---
 
-/* ===== Reset de base ===== */
+/* =========================================================
+   PORTFOLIO ABDELKBIR HADIOUI - STYLE V2
+   Dark professional GitHub portfolio
+========================================================= */
+
+/* ===== Reset ===== */
 * {
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background: linear-gradient(135deg, #081120 0%, #0b1730 50%, #0e1c38 100%);
-  color: #f3f4f6;
+  background:
+    radial-gradient(circle at top left, rgba(37, 99, 235, 0.16), transparent 35%),
+    linear-gradient(135deg, #081120 0%, #0b1730 50%, #0e1c38 100%);
+  color: #f8fafc;
   font-family: "Segoe UI", Arial, sans-serif;
   line-height: 1.75;
   overflow-x: hidden;
@@ -23,65 +31,74 @@ body {
 .page-shell {
   width: 100%;
   min-height: 100vh;
-  padding: 28px 20px;
+  padding: 30px 22px;
 }
 
 .main-container {
-  max-width: 1450px;
+  max-width: 1480px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 340px 1fr;
-  gap: 22px;
+  grid-template-columns: 350px 1fr;
+  gap: 28px;
   align-items: start;
 }
 
-/* ===== Colonne gauche ===== */
+/* ===== Sidebar ===== */
 .sidebar {
-  position: static; /* important : ne reste plus fixe */
+  position: static;
 }
 
 .profile-card {
   background: rgba(8, 18, 36, 0.96);
-  border: 1px solid rgba(120, 160, 255, 0.15);
-  border-radius: 26px;
-  padding: 26px;
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(96, 165, 250, 0.22);
+  border-radius: 28px;
+  padding: 28px;
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.35);
 }
 
-/* ===== Image profil ===== */
+/* ===== Photo ===== */
 .profile-image {
   width: 100%;
   display: block;
-  border-radius: 22px;
-  border: 3px solid rgba(96, 165, 250, 0.35);
-  margin-bottom: 22px;
+  border-radius: 24px;
+  border: 3px solid rgba(96, 165, 250, 0.38);
+  margin-bottom: 24px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
 }
 
-/* ===== Nom dans la carte gauche ===== */
+/* ===== Nom sidebar ===== */
 .profile-name {
-  font-size: 2.8rem;
+  font-size: 2.7rem;
   line-height: 1.05;
-  margin: 0 0 16px 0;
+  margin: 0 0 14px 0;
   color: #60a5fa;
-  font-weight: 800;
+  font-weight: 850;
+  letter-spacing: -0.5px;
 }
 
 .profile-role {
   color: #e5e7eb;
-  font-size: 1.1rem;
-  line-height: 1.7;
+  font-size: 1.08rem;
+  line-height: 1.65;
   margin-bottom: 20px;
 }
 
 .profile-info p {
   margin: 10px 0;
-  color: #f3f4f6;
-  font-size: 1.08rem;
+  color: #f1f5f9;
+  font-size: 1.02rem;
+  line-height: 1.55;
 }
 
-/* ===== Liens profil ===== */
+.sidebar-separator {
+  height: 1px;
+  width: 100%;
+  margin: 22px 0;
+  background: rgba(148, 163, 184, 0.25);
+}
+
+/* ===== Liens sidebar ===== */
 .profile-links {
-  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -92,88 +109,87 @@ body {
   text-decoration: none;
   color: #ffffff;
   background: #2563eb;
-  padding: 11px 15px;
-  border-radius: 10px;
-  font-weight: 600;
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-weight: 700;
   transition: 0.25s ease;
 }
 
 .profile-links a:hover {
   background: #1d4ed8;
+  transform: translateY(-2px);
+  text-decoration: none;
 }
 
 /* ===== Zone principale ===== */
 .content-area {
   background: rgba(8, 18, 36, 0.96);
-  border: 1px solid rgba(120, 160, 255, 0.15);
-  border-radius: 26px;
-  padding: 40px 42px;
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(96, 165, 250, 0.22);
+  border-radius: 28px;
+  padding: 46px 48px;
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.35);
 }
 
 /* ===== Titres ===== */
-h1, h2, h3, h4 {
-  margin-top: 0;
-  font-weight: 800;
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 850;
+  letter-spacing: -0.4px;
 }
 
-/* Grand titre principal */
 h1 {
   color: #ffffff;
   font-size: 4rem;
   line-height: 1.05;
+  margin-top: 0;
   margin-bottom: 28px;
 }
 
-/* Sous-titres */
 h2 {
-  color: #ffffff;
-  font-size: 2.6rem;
+  color: #60a5fa;
+  font-size: 2.45rem;
   line-height: 1.2;
-  margin-top: 42px;
-  margin-bottom: 22px;
-  padding-bottom: 10px;
-  border-bottom: 3px solid #3b82f6;
+  margin-top: 62px;
+  margin-bottom: 26px;
+  padding-bottom: 12px;
+  border-bottom: 3px solid #2563eb;
 }
 
 h3 {
   color: #ffffff;
-  font-size: 1.6rem;
-  margin-top: 30px;
-  margin-bottom: 12px;
+  font-size: 1.65rem;
+  margin-top: 34px;
+  margin-bottom: 14px;
 }
 
-.project-card h3 {
-  color: #ffffff;
-  margin-top: 0;
-}
-
-/* ===== Paragraphes et texte ===== */
+/* ===== Textes ===== */
 p {
   color: #f8fafc;
-  font-size: 1.22rem;
+  font-size: 1.16rem;
   line-height: 1.9;
   margin-bottom: 18px;
 }
 
 li {
   color: #f8fafc;
-  font-size: 1.14rem;
+  font-size: 1.12rem;
   line-height: 1.8;
   margin-bottom: 8px;
 }
 
-/* ===== Texte important ===== */
 strong,
 b {
   color: #ffffff;
-  font-weight: 800;
+  font-weight: 850;
 }
 
 /* ===== Liens ===== */
 a {
   color: #60a5fa;
   text-decoration: none;
+  font-weight: 650;
 }
 
 a:hover {
@@ -181,40 +197,89 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ===== Ligne horizontale ===== */
+/* ===== Séparateurs ===== */
 hr {
   border: none;
-  border-top: 1px solid rgba(255, 255, 255, 0.18);
-  margin: 34px 0;
+  border-top: 1px solid rgba(148, 163, 184, 0.28);
+  margin: 36px 0;
 }
 
-/* ===== Images dans le contenu ===== */
+/* ===== Images ===== */
 .content-area img {
   max-width: 100%;
   border-radius: 18px;
   margin: 20px 0;
-  border: 1px solid rgba(148, 163, 184, 0.15);
-  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.30);
+  border: 1px solid rgba(96, 165, 250, 0.22);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.38);
+}
+
+.project-image {
+  width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* ===== Technologies ===== */
+.tech-group {
+  margin: 28px 0 34px 0;
+  padding: 22px;
+  background: rgba(15, 23, 42, 0.72);
+  border: 1px solid rgba(96, 165, 250, 0.16);
+  border-radius: 20px;
+}
+
+.tech-group h3 {
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 /* ===== Cartes projets ===== */
 .project-card {
-  background: rgba(15, 23, 42, 0.9);
-  border: 1px solid rgba(96, 165, 250, 0.18);
-  border-radius: 18px;
-  padding: 24px;
-  margin: 24px 0;
+  background: rgba(15, 23, 42, 0.95);
+  border: 1.5px solid rgba(96, 165, 250, 0.35);
+  border-radius: 24px;
+  padding: 28px;
+  margin: 34px 0;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.38);
   transition: 0.25s ease;
 }
 
 .project-card:hover {
-  transform: translateY(-2px);
-  border-color: rgba(96, 165, 250, 0.45);
+  transform: translateY(-4px);
+  border-color: rgba(96, 165, 250, 0.75);
 }
 
 .project-card h3 {
+  color: #ffffff;
   margin-top: 0;
-  color: #60a5fa;
+  margin-bottom: 16px;
+}
+
+.project-card p {
+  color: #f1f5f9;
+}
+
+.project-tags {
+  margin: 14px 0 10px 0;
+}
+
+.tag {
+  display: inline-block;
+  background: rgba(37, 99, 235, 0.15);
+  color: #dbeafe;
+  border: 1px solid rgba(96, 165, 250, 0.24);
+  padding: 7px 11px;
+  border-radius: 999px;
+  margin: 5px 6px 5px 0;
+  font-size: 0.93rem;
+  font-weight: 650;
 }
 
 /* ===== Boutons ===== */
@@ -223,36 +288,26 @@ hr {
   background: #2563eb;
   color: #ffffff !important;
   padding: 12px 18px;
-  border-radius: 10px;
-  font-weight: 700;
+  border-radius: 12px;
+  font-weight: 800;
   text-decoration: none;
-  margin-top: 10px;
+  margin-top: 12px;
   transition: 0.25s ease;
 }
 
 .btn:hover {
   background: #1d4ed8;
+  transform: translateY(-2px);
   text-decoration: none;
-}
-
-/* ===== Badges ===== */
-.badge {
-  display: inline-block;
-  background: rgba(37, 99, 235, 0.15);
-  color: #dbeafe;
-  border: 1px solid rgba(96, 165, 250, 0.25);
-  padding: 8px 13px;
-  border-radius: 999px;
-  margin: 6px 7px 6px 0;
-  font-size: 0.95rem;
-  font-weight: 600;
 }
 
 /* ===== Tableaux ===== */
 table {
   width: 100%;
   border-collapse: collapse;
-  margin: 20px 0;
+  margin: 24px 0;
+  overflow: hidden;
+  border-radius: 16px;
 }
 
 th {
@@ -261,36 +316,43 @@ th {
   text-align: left;
 }
 
-td, th {
-  padding: 12px;
-  border: 1px solid rgba(148, 163, 184, 0.18);
+td,
+th {
+  padding: 13px;
+  border: 1px solid rgba(148, 163, 184, 0.2);
 }
 
 td {
-  background: rgba(30, 41, 59, 0.65);
+  background: rgba(30, 41, 59, 0.72);
   color: #f8fafc;
 }
 
+/* ===== GitHub Stats ===== */
+.github-stats img {
+  margin-right: 12px;
+  margin-bottom: 12px;
+  max-width: 100%;
+}
+
 /* ===== Responsive ===== */
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1150px) {
   .main-container {
     grid-template-columns: 1fr;
   }
 
   .content-area {
-    padding: 28px 24px;
+    padding: 34px 28px;
   }
 
-  h1 {
-    font-size: 3rem;
+  .profile-card {
+    max-width: 720px;
+    margin: 0 auto;
   }
 
-  h2 {
-    font-size: 2.1rem;
-  }
-
-  .profile-name {
-    font-size: 2.3rem;
+  .profile-image {
+    max-height: 420px;
+    object-fit: cover;
+    object-position: top;
   }
 }
 
@@ -301,19 +363,29 @@ td {
 
   .profile-card,
   .content-area {
-    padding: 18px;
+    padding: 20px;
+    border-radius: 22px;
   }
 
   h1 {
-    font-size: 2.3rem;
+    font-size: 2.35rem;
   }
 
   h2 {
-    font-size: 1.8rem;
+    font-size: 1.85rem;
+    margin-top: 44px;
+  }
+
+  h3 {
+    font-size: 1.35rem;
   }
 
   p,
   li {
-    font-size: 1.03rem;
+    font-size: 1.02rem;
+  }
+
+  .profile-name {
+    font-size: 2.2rem;
   }
 }
