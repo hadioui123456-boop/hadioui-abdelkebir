@@ -31,14 +31,13 @@ Je m’intéresse particulièrement à :
 <h3>Automatisme & supervision</h3>
 
 <div class="badges">
-
-![TIA Portal](https://img.shields.io/badge/TIA%20Portal-Siemens-009999?style=for-the-badge)
-![STEP 7](https://img.shields.io/badge/STEP%207-Siemens-0078D7?style=for-the-badge)
-![WinCC](https://img.shields.io/badge/WinCC-HMI-blue?style=for-the-badge)
-![PROFINET](https://img.shields.io/badge/PROFINET-Industrial%20Ethernet-green?style=for-the-badge)
-![PLC](https://img.shields.io/badge/PLC-S7--1200%20%7C%20S7--300-orange?style=for-the-badge)
-
+  <img src="https://img.shields.io/badge/TIA%20Portal-Siemens-009999?style=for-the-badge" alt="TIA Portal">
+  <img src="https://img.shields.io/badge/STEP%207-Siemens-0078D7?style=for-the-badge" alt="STEP 7">
+  <img src="https://img.shields.io/badge/WinCC-HMI-blue?style=for-the-badge" alt="WinCC">
+  <img src="https://img.shields.io/badge/PROFINET-Industrial%20Ethernet-green?style=for-the-badge" alt="PROFINET">
+  <img src="https://img.shields.io/badge/PLC-S7--1200%20%7C%20S7--300-orange?style=for-the-badge" alt="PLC Siemens">
 </div>
+
 </div>
 
 <div class="tech-group">
@@ -46,13 +45,12 @@ Je m’intéresse particulièrement à :
 <h3>CAO, simulation & robotique</h3>
 
 <div class="badges">
-
-![CATIA V5](https://img.shields.io/badge/CATIA%20V5-Design-1E40AF?style=for-the-badge)
-![DELMIA](https://img.shields.io/badge/DELMIA-Robot%20Simulation-7C3AED?style=for-the-badge)
-![MODOU IDE](https://img.shields.io/badge/MODOU%20IDE-Robot%20Programming-orange?style=for-the-badge)
-![Robotique](https://img.shields.io/badge/Robotique-Industrielle-2563EB?style=for-the-badge)
-
+  <img src="https://img.shields.io/badge/CATIA%20V5-Design-1E40AF?style=for-the-badge" alt="CATIA V5">
+  <img src="https://img.shields.io/badge/DELMIA-Robot%20Simulation-7C3AED?style=for-the-badge" alt="DELMIA">
+  <img src="https://img.shields.io/badge/MODOU%20IDE-Robot%20Programming-orange?style=for-the-badge" alt="MODOU IDE">
+  <img src="https://img.shields.io/badge/Robotique-Industrielle-2563EB?style=for-the-badge" alt="Robotique industrielle">
 </div>
+
 </div>
 
 <div class="tech-group">
@@ -60,13 +58,12 @@ Je m’intéresse particulièrement à :
 <h3>Électrique & dimensionnement</h3>
 
 <div class="badges">
-
-![SEE Electrical](https://img.shields.io/badge/SEE%20Electrical-Schematics-yellow?style=for-the-badge)
-![Caneco BT](https://img.shields.io/badge/Caneco%20BT-Low%20Voltage-red?style=for-the-badge)
-![Pneumatique](https://img.shields.io/badge/Pneumatique-Industrielle-0EA5E9?style=for-the-badge)
-![AMDEC](https://img.shields.io/badge/AMDEC-Analyse%20de%20risque-9333EA?style=for-the-badge)
-
+  <img src="https://img.shields.io/badge/SEE%20Electrical-Schematics-yellow?style=for-the-badge" alt="SEE Electrical">
+  <img src="https://img.shields.io/badge/Caneco%20BT-Low%20Voltage-red?style=for-the-badge" alt="Caneco BT">
+  <img src="https://img.shields.io/badge/Pneumatique-Industrielle-0EA5E9?style=for-the-badge" alt="Pneumatique">
+  <img src="https://img.shields.io/badge/AMDEC-Analyse%20de%20risque-9333EA?style=for-the-badge" alt="AMDEC">
 </div>
+
 </div>
 
 <div class="tech-group">
@@ -74,16 +71,13 @@ Je m’intéresse particulièrement à :
 <h3>Systèmes embarqués & IoT</h3>
 
 <div class="badges">
-
-![Arduino](https://img.shields.io/badge/Arduino-Microcontroller-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-IoT-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-Embedded-black?style=for-the-badge)
-![Node-RED](https://img.shields.io/badge/Node--RED-IoT-red?style=for-the-badge&logo=nodered&logoColor=white)
-
-</div>
+  <img src="https://img.shields.io/badge/Arduino-Microcontroller-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino">
+  <img src="https://img.shields.io/badge/Raspberry%20Pi-IoT-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white" alt="Raspberry Pi">
+  <img src="https://img.shields.io/badge/ESP32-Embedded-black?style=for-the-badge" alt="ESP32">
+  <img src="https://img.shields.io/badge/Node--RED-IoT-red?style=for-the-badge&logo=nodered&logoColor=white" alt="Node-RED">
 </div>
 
----
+</div>
 
 ## Projets principaux
 
